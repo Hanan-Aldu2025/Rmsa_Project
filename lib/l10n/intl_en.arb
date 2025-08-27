@@ -1,1 +1,12 @@
-{}
+{
+  "onBoardingTitle1": "Welcome to Rmsa Cafe\nExperience the best coffee in town with fast delivery.",
+  "onBoardingTitle2": "Discover Amazing Coffee\nFind your favorite coffee and desserts in one place.",
+  "onBoardingTitle3": "Order Easily & Enjoy\nPlace your order in seconds and enjoy it anywhere.",
+  "start": "start",
+  "enterEmail": "Enter The Email",
+  "enterPassword": "Enter Password",
+  "forgetPassword": "Forget the password?",
+  "login": "Login",
+  "dontHaveAccount": "Don't have an account?",
+  "signUp": "Sign Up"
+}

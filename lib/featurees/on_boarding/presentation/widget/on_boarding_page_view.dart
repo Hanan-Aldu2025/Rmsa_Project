@@ -1,4 +1,5 @@
 import 'package:appp/featurees/on_boarding/presentation/widget/on_boarding_items.dart';
+import 'package:appp/generated/l10n.dart';
 import 'package:appp/utils/app_colors.dart';
 import 'package:appp/utils/app_images.dart';
 import 'package:flutter/material.dart';
@@ -12,18 +13,17 @@ class OnBoardingPageView extends StatelessWidget {
       controller: pageController,
       children: [
         OnBoardingItems(
-          title: "Sip, Savor, Smile – Your Coffee Moment Awaits!",
+          title: S.of(context).onBoardingTitle1,
           backgroundimage: Assets.imagesOneboarding,
           bkgroundcolor: AppColors.bgBlack,
         ),
         OnBoardingItems(
-          title: "Wake Up to Happiness – Coffee and Desserts Together",
+          title: S.of(context).onBoardingTitle2,
           backgroundimage: Assets.imagesTwoboarding,
           bkgroundcolor: AppColors.bgBrownDark,
         ),
         OnBoardingItems(
-          title:
-              "Enjoy every sip and every bite, where coffee and sweets turn into unforgettable moments",
+          title: S.of(context).onBoardingTitle3,
           backgroundimage: Assets.imagesThreeboarding,
           bkgroundcolor: AppColors.bgBrownLight,
         ),

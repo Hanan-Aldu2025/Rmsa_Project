@@ -21,5 +21,24 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ar';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "dontHaveAccount": MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+    "enterEmail": MessageLookupByLibrary.simpleMessage(
+      "أدخل البريد الإلكتروني",
+    ),
+    "enterPassword": MessageLookupByLibrary.simpleMessage("أدخل كلمة المرور"),
+    "forgetPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+    "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
+      "مرحبا بك في كافيه رمسا\nاستمتع بأفضل قهوة في المدينة مع توصيل سريع.",
+    ),
+    "onBoardingTitle2": MessageLookupByLibrary.simpleMessage(
+      "اكتشف أفضل القهوة\nاعثر على قهوتك وحلوياتك المفضلة في مكان واحد.",
+    ),
+    "onBoardingTitle3": MessageLookupByLibrary.simpleMessage(
+      "اطلب بسهولة واستمتع\nقم بطلبك في ثوانٍ واستمتع به أينما كنت.",
+    ),
+    "signUp": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "start": MessageLookupByLibrary.simpleMessage("أبد"),
+  };
 }

@@ -3,6 +3,7 @@ import 'package:appp/core/services/shared_preverences_singleton.dart';
 import 'package:appp/core/widget/custom_button.dart';
 import 'package:appp/featurees/longin/presentation/views/login_view.dart';
 import 'package:appp/featurees/on_boarding/presentation/widget/on_boarding_page_view.dart';
+import 'package:appp/generated/l10n.dart';
 import 'package:appp/utils/app_colors.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
@@ -65,13 +66,13 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                   maintainAnimation: true,
                   maintainState: true,
                   child: CustomButton(
-                    passward: () async {
+                    onpressed: () async {
                       await AppPrefs.setBool(kIsOnBoardingVieweSeen, true);
                       Navigator.of(
                         context,
                       ).pushReplacementNamed(LoginView.routeName);
                     },
-                    text: "Start ",
+                    text: S.of(context).start,
                   ),
                 ),
                 SizedBox(height: 20),

@@ -53,6 +53,91 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Welcome to Rmsa Cafe\nExperience the best coffee in town with fast delivery.`
+  String get onBoardingTitle1 {
+    return Intl.message(
+      'Welcome to Rmsa Cafe\nExperience the best coffee in town with fast delivery.',
+      name: 'onBoardingTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover Amazing Coffee\nFind your favorite coffee and desserts in one place.`
+  String get onBoardingTitle2 {
+    return Intl.message(
+      'Discover Amazing Coffee\nFind your favorite coffee and desserts in one place.',
+      name: 'onBoardingTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order Easily & Enjoy\nPlace your order in seconds and enjoy it anywhere.`
+  String get onBoardingTitle3 {
+    return Intl.message(
+      'Order Easily & Enjoy\nPlace your order in seconds and enjoy it anywhere.',
+      name: 'onBoardingTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `start`
+  String get start {
+    return Intl.message('start', name: 'start', desc: '', args: []);
+  }
+
+  /// `Enter The Email`
+  String get enterEmail {
+    return Intl.message(
+      'Enter The Email',
+      name: 'enterEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Password`
+  String get enterPassword {
+    return Intl.message(
+      'Enter Password',
+      name: 'enterPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget the password?`
+  String get forgetPassword {
+    return Intl.message(
+      'Forget the password?',
+      name: 'forgetPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Don't have an account?`
+  String get dontHaveAccount {
+    return Intl.message(
+      'Don\'t have an account?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get signUp {
+    return Intl.message('Sign Up', name: 'signUp', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

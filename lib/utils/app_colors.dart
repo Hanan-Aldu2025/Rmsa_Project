@@ -8,6 +8,7 @@ abstract class AppColors {
   static const Color bgorangLight = Color(0xFFFFE7DB);
   static const Color bgScaffold = Color(0xFFFFE7DB);
   static const Color bgBrownDarkTransparent = Color(0x80452F22);
+  static const Color bklbrownlight10 = Color.fromARGB(29, 150, 86, 51);
 
   static const Color dotactive = Color.fromARGB(255, 209, 75, 8);
 }

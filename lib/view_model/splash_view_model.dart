@@ -1,8 +1,8 @@
 // lib/features/splash/viewmodel/splash_vm.dart
 import 'package:appp/constans.dart';
 import 'package:appp/core/services/shared_preverences_singleton.dart';
+import 'package:appp/featurees/language/presentation/views/language_selection_view.dart';
 import 'package:appp/featurees/longin/presentation/views/login_view.dart';
-import 'package:appp/featurees/on_boarding/presentation/views/on_boarding_view.dart';
 import 'package:flutter/material.dart';
 
 class SplashViewModel with ChangeNotifier {
@@ -31,7 +31,7 @@ class SplashViewModel with ChangeNotifier {
     } else {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => const OnBoardingView()),
+        MaterialPageRoute(builder: (context) => const LanguageSelectionView()),
       );
     }
   }

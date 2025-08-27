@@ -39,7 +39,9 @@ class OnBoardingItems extends StatelessWidget {
                   child: Center(
                     child: Text(
                       title,
-                      style: AppStyles.styleRegular18,
+                      style: AppStyles.styleRegular14.copyWith(
+                        color: Colors.white,
+                      ),
                       textAlign: TextAlign.center,
                     ),
                   ),
