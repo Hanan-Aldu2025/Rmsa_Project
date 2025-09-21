@@ -88,12 +88,12 @@ class _AnimatedLogoState extends State<AnimatedLogo>
         children: [
           FadeTransition(
             opacity: _imageAnimation,
-            child: Image.asset(Assets.imagesLogo1, height: 120),
+            child: Image.asset(Assets.imagesLogo, height: 120),
           ),
-          const SizedBox(height: 20),
-          Text(displayedTitle, style: AppStyles.styleSemiBold46),
           const SizedBox(height: 10),
-          Text(displayedSubtitle, style: AppStyles.styleRegular16),
+          Text(displayedTitle, style: AppStyles.styleSemiBold46),
+          const SizedBox(height: 6),
+          Text(displayedSubtitle, style: AppStyles.styleRegular13),
         ],
       ),
     );

@@ -1,5 +1,6 @@
 import 'package:appp/core/helper_fauniction/on_generate_router.dart';
 import 'package:appp/featurees/dassh_bord/presentation/views/dash_bord.dart';
+import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/views/login_view.dart';
 import 'package:appp/generated/l10n.dart';
 import 'package:appp/utils/app_colors.dart';
 import 'package:flutter/material.dart';
@@ -41,11 +42,11 @@ class _AppBootstrapState extends State<AppBootstrap> {
       debugShowCheckedModeBanner: false,
       title: 'Rmsa Cafe',
       theme: ThemeData(
-        fontFamily: "Montserrat",
+        // fontFamily: "Montserrat",
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.bgBrownDark),
       ),
-      initialRoute: DashBorad.routeName,
+      initialRoute: LoginView.routeName,
       onGenerateRoute: AppRouter.onGenerateRoute,
     );
   }

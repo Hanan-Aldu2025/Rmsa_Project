@@ -1,7 +1,7 @@
-import 'package:appp/constans.dart';
+import 'package:appp/constants/constans_kword.dart';
 import 'package:appp/core/services/shared_preverences_singleton.dart';
 import 'package:appp/core/widget/custom_button.dart';
-import 'package:appp/featurees/longin/presentation/views/login_view.dart';
+import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/views/login_view.dart';
 import 'package:appp/featurees/on_boarding/presentation/widget/on_boarding_page_view.dart';
 import 'package:appp/generated/l10n.dart';
 import 'package:appp/utils/app_colors.dart';

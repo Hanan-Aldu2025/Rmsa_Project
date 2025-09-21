@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198014969028",
+    "project_id": "rmsa-bc6bb",
+    "storage_bucket": "rmsa-bc6bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198014969028:android:d2a5cf67125b3ba3949591",
+        "android_client_info": {
+          "package_name": "com.example.appp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTynZ58_ar--asBkbR-qiJwePmubJ2yxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

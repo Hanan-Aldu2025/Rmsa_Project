@@ -99,20 +99,30 @@ class S {
     );
   }
 
-  /// `Enter Password`
+  /// ` Please Enter Full Name`
+  String get enterFullName {
+    return Intl.message(
+      ' Please Enter Full Name',
+      name: 'enterFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter your Password`
   String get enterPassword {
     return Intl.message(
-      'Enter Password',
+      'Please enter your Password',
       name: 'enterPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `Forget the password?`
+  /// `Forget the password? `
   String get forgetPassword {
     return Intl.message(
-      'Forget the password?',
+      'Forget the password? ',
       name: 'forgetPassword',
       desc: '',
       args: [],
@@ -124,10 +134,10 @@ class S {
     return Intl.message('Login', name: 'login', desc: '', args: []);
   }
 
-  /// `Don't have an account?`
+  /// `Don't have an account ? `
   String get dontHaveAccount {
     return Intl.message(
-      'Don\'t have an account?',
+      'Don\'t have an account ? ',
       name: 'dontHaveAccount',
       desc: '',
       args: [],
@@ -137,6 +147,131 @@ class S {
   /// `Sign Up`
   String get signUp {
     return Intl.message('Sign Up', name: 'signUp', desc: '', args: []);
+  }
+
+  /// `Login with Google`
+  String get loginwithGoogle {
+    return Intl.message(
+      'Login with Google',
+      name: 'loginwithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Iphone `
+  String get loginwithIphone {
+    return Intl.message(
+      'Login with Iphone ',
+      name: 'loginwithIphone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get loginwithFacebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'loginwithFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By creating an account, you agree to our `
+  String get agree_prefix {
+    return Intl.message(
+      'By creating an account, you agree to our ',
+      name: 'agree_prefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms & Conditions`
+  String get terms_and_conditions {
+    return Intl.message(
+      'Terms & Conditions',
+      name: 'terms_and_conditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create New Account`
+  String get create_new_account {
+    return Intl.message(
+      'Create New Account',
+      name: 'create_new_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account? `
+  String get already_have_account {
+    return Intl.message(
+      'Already have an account? ',
+      name: 'already_have_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `This filed is required `
+  String get validatorText {
+    return Intl.message(
+      'This filed is required ',
+      name: 'validatorText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter a valid email`
+  String get invalidEmail {
+    return Intl.message(
+      'Please enter a valid email',
+      name: 'invalidEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password must be at least 6 characters`
+  String get passwordTooShort {
+    return Intl.message(
+      'Password must be at least 6 characters',
+      name: 'passwordTooShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please fill all fields`
+  String get fillAllFields {
+    return Intl.message(
+      'Please fill all fields',
+      name: 'fillAllFields',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send OTP`
+  String get sendOtpEn {
+    return Intl.message('Send OTP', name: 'sendOtpEn', desc: '', args: []);
+  }
+
+  /// `Back to Login`
+  String get backToLoginEn {
+    return Intl.message(
+      'Back to Login',
+      name: 'backToLoginEn',
+      desc: '',
+      args: [],
+    );
   }
 }
 

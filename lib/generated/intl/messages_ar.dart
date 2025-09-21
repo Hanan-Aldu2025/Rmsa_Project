@@ -22,13 +22,42 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "dontHaveAccount": MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+    "agree_prefix": MessageLookupByLibrary.simpleMessage(
+      "من خلال إنشاء حساب، فإنك توافق على ",
+    ),
+    "already_have_account": MessageLookupByLibrary.simpleMessage(
+      "تمتلك حساب بالفعل؟ ",
+    ),
+    "create_new_account": MessageLookupByLibrary.simpleMessage(
+      "إنشاء حساب جديد",
+    ),
+    "dontHaveAccount": MessageLookupByLibrary.simpleMessage(" ليس لديك حساب ؟"),
     "enterEmail": MessageLookupByLibrary.simpleMessage(
-      "أدخل البريد الإلكتروني",
+      "الرجاء إدخال البريد الإلكتروني",
+    ),
+    "enterFullName": MessageLookupByLibrary.simpleMessage(
+      "الرجاء إدخال الاسم الكامل",
     ),
     "enterPassword": MessageLookupByLibrary.simpleMessage("أدخل كلمة المرور"),
-    "forgetPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+    "fillAllFields": MessageLookupByLibrary.simpleMessage(
+      "الرجاء ملء جميع الحقول",
+    ),
+    "forgetPassword": MessageLookupByLibrary.simpleMessage(
+      " نسيت كلمة المرور ؟",
+    ),
+    "invalidEmail": MessageLookupByLibrary.simpleMessage(
+      "الرجاء إدخال بريد إلكتروني صحيح",
+    ),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "loginwithFacebook": MessageLookupByLibrary.simpleMessage(
+      " تسجبل بواسطة فيسبوك",
+    ),
+    "loginwithGoogle": MessageLookupByLibrary.simpleMessage(
+      "تسجبل بواسطة جوجل  ",
+    ),
+    "loginwithIphone": MessageLookupByLibrary.simpleMessage(
+      " تسجبل بواسطة آبل",
+    ),
     "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
       "مرحبا بك في كافيه رمسا\nاستمتع بأفضل قهوة في المدينة مع توصيل سريع.",
     ),
@@ -38,7 +67,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "onBoardingTitle3": MessageLookupByLibrary.simpleMessage(
       "اطلب بسهولة واستمتع\nقم بطلبك في ثوانٍ واستمتع به أينما كنت.",
     ),
+    "passwordTooShort": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+    ),
     "signUp": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
     "start": MessageLookupByLibrary.simpleMessage("أبد"),
+    "terms_and_conditions": MessageLookupByLibrary.simpleMessage(
+      "الشروط والأحكام الخاصة بنا",
+    ),
+    "validatorText": MessageLookupByLibrary.simpleMessage(
+      "  هذا الحقل مطلوب  ",
+    ),
   };
 }

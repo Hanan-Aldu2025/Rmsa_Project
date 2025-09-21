@@ -28,15 +28,26 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  auto_size_text: ^3.0.0
+  bloc: ^9.0.0
+  cloud_firestore: ^6.0.0
+  cloud_functions: ^6.0.1
   cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.9.0
   dots_indicator: ^2.1.0
+  firebase_auth: ^6.0.1
+  firebase_core: ^4.0.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  flutter_getit: ^3.0.1
   flutter_intl: ^0.0.1
-
   flutter_localizations:
     sdk: flutter
+  get_it: 7.7.0
+  meta: ^1.16.0
+  modal_progress_hud_nsn: ^0.5.1
   provider: ^6.1.5+1
   shared_preferences: ^2.2.2
 
@@ -89,7 +100,7 @@ flutter:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/Logo1.png"
+  image_path: "assets/images/Logo.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
 
 flutter_assets:

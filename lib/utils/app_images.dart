@@ -6,9 +6,25 @@ class Assets {
   /// assets/images/cafe.jpg
   static const String imagesCafe = "assets/images/cafe.jpg";
 
-  /// Assets for imagesLogo1
-  /// assets/images/Logo1.png
-  static const String imagesLogo1 = "assets/images/Logo1.png";
+  /// Assets for imagesEnsta
+  /// assets/images/ensta.png
+  static const String imagesEnsta = "assets/images/ensta.png";
+
+  /// Assets for imagesFacebook
+  /// assets/images/facebook.png
+  static const String imagesFacebook = "assets/images/facebook.png";
+
+  /// Assets for imagesGoogle
+  /// assets/images/google.png
+  static const String imagesGoogle = "assets/images/google.png";
+
+  /// Assets for imagesIphon
+  /// assets/images/iphon.png
+  static const String imagesIphon = "assets/images/iphon.png";
+
+  /// Assets for imagesLogo
+  /// assets/images/Logo.png
+  static const String imagesLogo = "assets/images/Logo.png";
 
   /// Assets for imagesOne
   /// assets/images/one.jpg
@@ -21,6 +37,10 @@ class Assets {
   /// Assets for imagesThreeboarding
   /// assets/images/threeboarding.jpg
   static const String imagesThreeboarding = "assets/images/threeboarding.jpg";
+
+  /// Assets for imagesTiltok
+  /// assets/images/tiltok.png
+  static const String imagesTiltok = "assets/images/tiltok.png";
 
   /// Assets for imagesTwoboarding
   /// assets/images/twoboarding.jpg
