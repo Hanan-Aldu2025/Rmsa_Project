@@ -1,4 +1,5 @@
 import 'package:appp/featurees/Auth/presenatation/cubits/login_cubit/login_state.dart';
+import 'package:appp/featurees/main/presentation/views/main_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
@@ -13,11 +14,15 @@ class LoginBodyBlocConsumer extends StatelessWidget {
     return BlocConsumer<LoginCubit, LoginState>(
       listener: (context, state) {
         if (state is LoginSuccess) {
-          Navigator.pushReplacementNamed(context, "/home");
-        } else if (state is LoginFailure) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text(state.message)),
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => MainView()),
           );
+          // Navigator.pushReplacementNamed(context, "/home");
+        } else if (state is LoginFailure) {
+          ScaffoldMessenger.of(
+            context,
+          ).showSnackBar(SnackBar(content: Text(state.message)));
         }
       },
       builder: (context, state) {

@@ -23,6 +23,12 @@ abstract class AppStyles {
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w700,
   );
+  static const TextStyle styleBold24 = TextStyle(
+    color: Color(0xFF0A191E), //#0A191E
+    fontSize: 24,
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w700,
+  );
 
   static const TextStyle styleBold28 = TextStyle(
     color: Color(0xFF0A191E), //#0A191E
@@ -34,6 +40,12 @@ abstract class AppStyles {
   static const TextStyle styleBold20 = TextStyle(
     color: Color(0xFF0A191E), //#0A191E
     fontSize: 20,
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w700,
+  );
+  static const TextStyle styleBold18 = TextStyle(
+    // color: Color(0xFF452F22), // بني غامق
+    fontSize: 18,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w700,
   );

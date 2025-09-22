@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_single_quotes
 class Assets {
   Assets._();
-  
+
   /// Assets for imagesCafe
   /// assets/images/cafe.jpg
   static const String imagesCafe = "assets/images/cafe.jpg";
@@ -47,3 +47,17 @@ class Assets {
   static const String imagesTwoboarding = "assets/images/twoboarding.jpg";
 }
 
+class SvgImages {
+  //----------------------CategoryImage--------------------------------
+  static const String imagesCaffee = "assets/images/caffee.svg";
+  static const String imagesCohole = "assets/images/alcohol.svg";
+  static const String imagesCoholeFree = "assets/images/alcoholfree.svg";
+  static const String imagesDessert = "assets/images/dessert.svg";
+  static const String imagesBreakfast = "assets/images/breakfast.svg";
+  //----------------------ProductImage--------------------------------
+  static const String imagesCappuccino = "assets/images/Frame 9.png";
+  static const String imagesEspresso = "assets/images/Espresso.png";
+  static const String imagesAmericano = "assets/images/Americano.png";
+  static const String imagesLatte = "assets/images/Rectangle 1.png";
+  static const String imagesprofile = "assets/images/profile.svg";
+}
