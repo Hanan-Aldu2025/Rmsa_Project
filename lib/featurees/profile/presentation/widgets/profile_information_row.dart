@@ -47,7 +47,7 @@ class ProfileInformationRow extends StatelessWidget {
                 title,
                 // maxLines: 1,
                 // overflow: TextOverflow.ellipsis,
-                style: AppStyles.styleExtraBold12.copyWith(fontSize: fontSize),
+                style: AppStyles.textInter16.copyWith(fontSize: fontSize),
               ),
             ],
           ),

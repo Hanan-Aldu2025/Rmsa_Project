@@ -91,9 +91,9 @@ class _AnimatedLogoState extends State<AnimatedLogo>
             child: Image.asset(Assets.imagesLogo, height: 120),
           ),
           const SizedBox(height: 10),
-          Text(displayedTitle, style: AppStyles.styleSemiBold46),
+          Text(displayedTitle, style: AppStyles.textInter16),
           const SizedBox(height: 6),
-          Text(displayedSubtitle, style: AppStyles.styleRegular13),
+          Text(displayedSubtitle, style: AppStyles.textInter16),
         ],
       ),
     );

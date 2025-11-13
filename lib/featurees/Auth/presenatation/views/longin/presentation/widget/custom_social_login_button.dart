@@ -32,9 +32,7 @@ class CustomSocialLoginButton extends StatelessWidget {
           visualDensity: VisualDensity(vertical: VisualDensity.minimumDensity),
           title: Text(
             title,
-            style: AppStyles.styleMedium16.copyWith(
-              color: AppColors.bgBrownDark,
-            ),
+            style: AppStyles.textInter16.copyWith(color: AppColors.bgBrownDark),
           ),
           leading: SizedBox(height: 45, width: 45, child: image),
         ),

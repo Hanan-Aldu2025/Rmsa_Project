@@ -1,6 +1,33 @@
 import 'package:flutter/material.dart';
 
 abstract class AppColors {
+  // اللون الأساسي للمشروع
+  static const Color primaryColor = Color(0xFF3D0E00);
+
+  // لون الخلفية العامة
+  static const Color backgroundColor = Color(0xFFFFF3F0);
+
+  // لون الضغط على الأزرار
+  static const Color onPressedColor = Color(0xFF731B00);
+
+  // لون الخلفية الرمادية الفاتحة (مثل خلفيات الحقول أو البطاقات)
+  static const Color backGray = Color(0xFFF3F4F6);
+
+  // لون رمادي أغمق قليلًا (مثلاً للشاشات الثانوية أو التباين)
+  static const Color softGray = Color(0xFFDEE1E6);
+
+  // الأسود القياسي للنصوص أو الأيقونات
+  static const Color blackColor = Color(0xFF000000);
+  // الأسود القياسي للنصوص أو الأيقونات
+  static const Color whiteColor = Color(
+    0xFFFFFFFF,
+  ); //#565D6DFF #565D6DFF //back F3F4F680 FAFAFBFF
+  // يستخدم للون الايقونات
+  static const Color iconColorDark = Color(0xFF565D6D);
+  static const Color iconColorlight = Color(0xFFA6A6A7); // #565D6DFF
+  // يستخدم للبوردر حق الحقول
+  static const Color borderColor = Color(0xFFDEE1E6);
+
   // ====== BACKGROUND COLORS ======
   static const Color bgBlack = Color(0xFF020202);
   static const Color bgBrownDark = Color(0xFF412011);

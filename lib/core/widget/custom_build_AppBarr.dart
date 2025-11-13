@@ -13,7 +13,7 @@ AppBar buildAppBar(context, {required String title}) {
     centerTitle: true,
     title: Text(
       title,
-      style: AppStyles.styleBold20.copyWith(color: AppColors.bgBrownDark),
+      style: AppStyles.textInter16.copyWith(color: AppColors.bgBrownDark),
     ),
   );
 }

@@ -39,7 +39,7 @@ class ProfilePersonName extends StatelessWidget {
             margin: EdgeInsets.only(top: 5),
             child: Text(
               'Lora Roberts',
-              style: AppStyles.styleBold16.copyWith(
+              style: AppStyles.textInter16.copyWith(
                 color: AppColors.bgBlack,
                 fontSize: fontSize,
               ),

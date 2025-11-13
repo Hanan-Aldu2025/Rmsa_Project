@@ -12,7 +12,7 @@ Text HaveAccount(BuildContext context) {
       children: [
         TextSpan(
           text: S.of(context).already_have_account,
-          style: AppStyles.styleExtraBold12,
+          style: AppStyles.textInter16,
         ),
         TextSpan(
           recognizer: TapGestureRecognizer()
@@ -20,7 +20,7 @@ Text HaveAccount(BuildContext context) {
               Navigator.pop(context, LoginView.routeName);
             },
           text: S.of(context).login,
-          style: AppStyles.styleBold15.copyWith(color: AppColors.bgBrownDark),
+          style: AppStyles.textInter16.copyWith(color: AppColors.bgBrownDark),
         ),
       ],
     ),

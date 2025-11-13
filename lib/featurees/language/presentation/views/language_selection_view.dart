@@ -41,11 +41,11 @@ class LanguageSelectionView extends StatelessWidget {
           children: [
             Text(
               "اختر اللغة",
-              style: AppStyles.styleMedium20.copyWith(color: Colors.black),
+              style: AppStyles.titleLora18.copyWith(color: Colors.black),
             ),
             Text(
               "Choose Language",
-              style: AppStyles.styleMedium20.copyWith(color: Colors.black),
+              style: AppStyles.titleLora18.copyWith(color: Colors.black),
             ),
             SizedBox(height: spacingVertical),
             SizedBox(

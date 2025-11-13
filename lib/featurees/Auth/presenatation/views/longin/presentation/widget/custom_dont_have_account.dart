@@ -11,7 +11,7 @@ Text dontHaveAccount(BuildContext context) {
       children: [
         TextSpan(
           text: S.of(context).dontHaveAccount,
-          style: AppStyles.styleExtraBold12,
+          style: AppStyles.textInter16,
         ),
         TextSpan(
           recognizer: TapGestureRecognizer()
@@ -19,7 +19,7 @@ Text dontHaveAccount(BuildContext context) {
               Navigator.pushNamed(context, SignupView.routeName);
             },
           text: S.of(context).signUp,
-          style: AppStyles.styleBold15.copyWith(color: AppColors.bgBrownDark),
+          style: AppStyles.textInter16.copyWith(color: AppColors.bgBrownDark),
         ),
       ],
     ),

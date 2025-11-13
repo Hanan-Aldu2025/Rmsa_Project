@@ -1,10 +1,14 @@
 import 'package:appp/core/helper_fauniction/on_generate_router.dart';
-import 'package:appp/featurees/dassh_bord/presentation/views/dash_bord.dart';
+import 'package:appp/favorite_view.dart';
 import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/views/login_view.dart';
 import 'package:appp/generated/l10n.dart';
+import 'package:appp/featurees/main_screens/home/presentation/views/home_view.dart';
+import 'package:appp/test.dart';
 import 'package:appp/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+
+import '../featurees/main_screens/bottom_nav_view/presentation/views/bottom_nav_view.dart';
 
 class AppBootstrap extends StatefulWidget {
   const AppBootstrap({super.key});
@@ -47,6 +51,7 @@ class _AppBootstrapState extends State<AppBootstrap> {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.bgBrownDark),
       ),
       initialRoute: LoginView.routeName,
+      // home: BottomNavView(),
       onGenerateRoute: AppRouter.onGenerateRoute,
     );
   }

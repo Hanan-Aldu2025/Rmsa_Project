@@ -5,6 +5,7 @@ final ActionCodeSettings acs = ActionCodeSettings(
   handleCodeInApp: true,
   iOSBundleId: 'com.example.ios',
   androidPackageName: 'com.example.android',
+
   androidInstallApp: true,
   androidMinimumVersion: '12',
 );

@@ -33,7 +33,7 @@ class ProfileViewBody extends StatelessWidget {
                 alignment: Alignment.centerLeft,
                 child: Text(
                   'Settings',
-                  style: AppStyles.styleBold16.copyWith(
+                  style: AppStyles.textInter16.copyWith(
                     fontSize: 18,
                     color: AppColors.bgBlack,
                   ),

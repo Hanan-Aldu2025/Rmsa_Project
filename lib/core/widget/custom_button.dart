@@ -19,7 +19,7 @@ class CustomButton extends StatelessWidget {
           ),
         ),
         onPressed: onpressed,
-        child: Text(text, style: AppStyles.styleSemiBold18),
+        child: Text(text, style: AppStyles.textInter16),
       ),
     );
   }

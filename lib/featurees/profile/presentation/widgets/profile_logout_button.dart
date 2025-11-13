@@ -16,7 +16,7 @@ class ProfileLogoutButton extends StatelessWidget {
           children: [
             Text(
               'Logout',
-              style: AppStyles.styleBold15.copyWith(
+              style: AppStyles.textInter16.copyWith(
                 color: AppColors.bgBrownLight,
               ),
             ),

@@ -3,7 +3,6 @@ import 'package:appp/utils/app_colors.dart';
 import 'package:appp/utils/app_style.dart';
 import 'package:flutter/material.dart';
 
-
 class CustomTextFormFiled extends StatelessWidget {
   final String hinttext;
   final TextInputType textInputType;
@@ -39,7 +38,7 @@ class CustomTextFormFiled extends StatelessWidget {
       keyboardType: textInputType,
       decoration: InputDecoration(
         hintText: hinttext,
-        hintStyle: AppStyles.styleRegular12,
+        hintStyle: AppStyles.textInter16,
         suffixIcon: suffixIcon,
         filled: true,
         fillColor: AppColors.bklbrownlight10,

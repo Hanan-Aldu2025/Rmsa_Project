@@ -1,7 +1,7 @@
 import 'package:appp/constants/constans_kword.dart';
 import 'package:appp/core/widget/custom_button.dart';
 import 'package:appp/featurees/Auth/presenatation/cubits/login_cubit/login_cubit.dart';
-import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/forgot_pass/presentation/views/forgot_pass_view.dart';
+import 'package:appp/featurees/Auth/presenatation/views/forgot_pass/presentation/views/forgot_pass_view.dart';
 import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/widget/custom_dont_have_account.dart';
 import 'package:appp/core/widget/custom_text_filed.dart';
 import 'package:appp/featurees/Auth/presenatation/views/longin/presentation/widget/custom_social_login_button.dart';
@@ -66,7 +66,7 @@ class _LoginViewBodyState extends State<LoginViewBody> {
                       S
                           .of(context)
                           .forgetPassword, // أو ForgotPassStrings.backToLoginAr حسب ما تستخدمي
-                      style: AppStyles.styleRegular13.copyWith(
+                      style: AppStyles.textInter16.copyWith(
                         color: AppColors.bgBrownDark,
                       ),
                     ),
