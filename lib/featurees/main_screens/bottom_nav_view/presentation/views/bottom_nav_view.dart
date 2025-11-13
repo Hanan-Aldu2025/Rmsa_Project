@@ -1,4 +1,4 @@
-import 'package:appp/featurees/main_screens/bottom_nav_view/presentation/views/bottom_nav_bar.dart';
+import 'package:appp/featurees/main_screens/bottom_nav_view/presentation/widgets/bottom_nav_bar.dart';
 import 'package:appp/featurees/main_screens/favorite/data/datasources/favorites_remote_data_source.dart';
 import 'package:appp/featurees/main_screens/favorite/domain/repositories/favorites_repositories_imp.dart';
 import 'package:appp/featurees/main_screens/favorite/presentation/cubit/favorite_cubit.dart';

@@ -1,39 +1,39 @@
-import 'package:appp/core/error/failure.dart';
-import 'package:appp/featurees/main_screens/favorite/data/repositories/favorites_repositories.dart';
-import 'package:appp/featurees/main_screens/home/data/models/product_model.dart';
-import 'package:appp/featurees/main_screens/home/domain/repositories/home_repository.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dartz/dartz.dart';
-import 'package:equatable/equatable.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:get/get_navigation/src/root/parse_route.dart';
+// import 'package:appp/core/error/failure.dart';
+// import 'package:appp/featurees/main_screens/favorite/data/repositories/favorites_repositories.dart';
+// import 'package:appp/featurees/main_screens/home/data/models/product_model.dart';
+// import 'package:appp/featurees/main_screens/home/domain/repositories/home_repository.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:dartz/dartz.dart';
+// import 'package:equatable/equatable.dart';
+// import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_bloc/flutter_bloc.dart';
+// import 'package:get/get_navigation/src/root/parse_route.dart';
 
-class FavoriteModel {
-  final String id;
-  final String productId;
-  final DateTime addedAt;
+// class FavoriteModel {
+//   final String id;
+//   final String productId;
+//   final DateTime addedAt;
 
-  FavoriteModel({
-    required this.id,
-    required this.productId,
-    required this.addedAt,
-  });
+//   FavoriteModel({
+//     required this.id,
+//     required this.productId,
+//     required this.addedAt,
+//   });
 
-  factory FavoriteModel.fromDoc(DocumentSnapshot doc) {
-    final data = doc.data() as Map<String, dynamic>;
-    return FavoriteModel(
-      id: doc.id,
-      productId: data['productId'] ?? '',
-      addedAt: (data['addedAt'] as Timestamp).toDate(),
-    );
-  }
+//   factory FavoriteModel.fromDoc(DocumentSnapshot doc) {
+//     final data = doc.data() as Map<String, dynamic>;
+//     return FavoriteModel(
+//       id: doc.id,
+//       productId: data['productId'] ?? '',
+//       addedAt: (data['addedAt'] as Timestamp).toDate(),
+//     );
+//   }
 
-  Map<String, dynamic> toMap() {
-    return {'productId': productId, 'addedAt': Timestamp.fromDate(addedAt)};
-  }
-}
+//   Map<String, dynamic> toMap() {
+//     return {'productId': productId, 'addedAt': Timestamp.fromDate(addedAt)};
+//   }
+// }
 
 // class FavoritesRemoteDataSource {
 //   final FirebaseFirestore firestore;
